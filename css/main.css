@@ -1608,7 +1608,9 @@ h5{
 	z-index: 5;
 }
 
-
+	.section_1 .carusel .item{
+		height: 225px;
+	}
 
 
 .section_1 .running {
