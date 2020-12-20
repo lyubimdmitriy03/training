@@ -445,7 +445,8 @@ header .container-fluid .main-menu:hover .container .navbar-brand .logo{
 	}
 
 
-.section_1 .carousel-inner .item img{
+.section_1 .carousel-inner .bottle,
+.section_1 .carousel-inner .boxing{
 	min-height: 245px;
 }
 
