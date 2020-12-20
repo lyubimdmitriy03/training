@@ -1,0 +1,2176 @@
+html,body{
+height: 100%;	
+}
+
+body{
+	background: #f7f7f7;
+	/*background: #B9E848;*/
+	font-size: 18px;
+	font-family:ProximaNova-Regular, sans-serif;
+	min-width: 300px;
+	color: #bbbbbb;
+
+}
+
+h1{
+	font-size: 60px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color: #ffffff;
+	text-align: center;
+
+} 
+
+h2{
+	font-size: 48px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color: #333333;
+
+} 
+
+h3{
+	font-size: 30px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color: #bbbbbb;
+} 
+
+h4{
+	font-size: 24px;
+	font-family:ProximaNova-Light, sans-serif;
+	color: #bbbbbb;
+
+} 
+
+h5{
+	font-size: 24px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color: #bbbbbb;
+} 
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	color:#ffffff;
+	font-family: ProximaNova-Light;
+	font-size: 18px;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+button{
+	outline: none;
+	border:none;
+}
+.btn-default{
+	background: #00a8ff;
+	color:#ffffff;
+	font-family: ProximaNova-Light;
+	font-size: 18px;
+	border-radius: 0;
+	text-transform: capitalize;
+	padding: 20px 30px;
+	border: none;
+}
+
+.btn-default:hover{
+	background: #0078B6;
+	color:#ffffff;
+}
+
+.btn-default:active{
+	background: #083C57;
+	color:#ffffff;
+}
+
+.white{
+	color:#ffffff;
+}
+
+.f18{
+	font-size:18px;
+}
+
+.row{
+	padding: 0;
+}
+
+/*====================================header=============================================================*/
+header{
+
+}
+header .container-fluid{
+	padding: 0;
+	position: relative;
+}
+
+header .container-fluid:after{
+	content: '';
+	position: absolute;
+	display: block;
+	height:100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	 background: radial-gradient( at 100% 30% ,#323e67 5%, rgba(18, 18, 58, 0.91));
+
+}
+
+
+
+header .container-fluid img{
+	height:100%;
+	width: 100%;
+
+}
+
+header .container-fluid .main-menu{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 30;
+	transition: 1s;
+}
+
+header .container-fluid .main-menu.white{
+	background: #ffffff;
+	z-index: 500;
+	transition: 1s;
+	height: 105px;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+header .container-fluid .navbar{
+	margin: 0px 7.5%;
+	width: 85%;
+}
+
+header .container-fluid .navbar-default{
+	border-radius: 0;
+	background:transparent;
+    border:none;
+    margin-top:80px;
+}
+
+header .container-fluid .main-menu:hover{
+	background: #ffffff;
+	z-index: 500;
+	transition: 1s;
+	height: 105px;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+
+
+header .container-fluid .main-menu .container{
+	padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+	width: 100%;
+	
+}
+
+header .container-fluid .main-menu .container  .navbar-right li a{
+	color:#ffffff;
+	padding: 22px 30px;
+}
+
+ .navbar-collapse button{
+	margin-left: 25px;
+	float: right!important;
+}
+
+.navbar-brand{
+	padding: 28px 15px;
+}
+
+.navbar-brand .logo{
+	animation: pulse 1.5s ease-out infinite;
+	padding: 15px 25px;
+
+}
+
+@keyframes pulse{
+	0% {
+		background: url(..//img/LOGO_ICON.png) no-repeat;
+	}
+	50% {
+		background: url(..//img/LOGO1b.png) no-repeat;
+	}
+	100% {
+		background: url(..//img/LOGO_ICON.png) no-repeat;
+	}
+}
+
+header .container-fluid .main-menu:hover {
+	margin-right:0;
+	margin-left: 0;
+	width: 100%;
+	transition: background ease .5s;
+}
+
+header .container-fluid .main-menu .container{
+	padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+	width: 100%;
+}
+
+header .container-fluid .main-menu:hover .container {
+	margin-top: -60px;
+}
+header .container-fluid .main-menu.white .container {
+	margin-top: -60px;
+}
+
+	header .container-fluid .main-menu:hover .container .navbar-right{
+	transition: all ease 1.s;
+}
+
+header .container-fluid .main-menu.white .container .navbar-right{
+	transition: all ease 1.s;
+}
+
+	header .container-fluid .main-menu:hover .container .navbar-right li a{
+	color:#bbbbbb;
+	transition: color ease 1.s;
+}
+
+header .container-fluid .main-menu.white .container .navbar-right li a{
+	color:#bbbbbb;
+	transition: color ease 1.s;
+}
+header .container-fluid .main-menu:hover .container .navbar-brand{
+	padding: 28px 15px;
+}
+
+header .container-fluid .main-menu.white .container .navbar-brand{
+	padding: 28px 15px;
+}
+
+
+header .container-fluid .main-menu:hover .container .navbar-right li:hover a{
+	color:#00a8ff;
+}
+
+header .container-fluid .main-menu.white .container .navbar-right li:hover a{
+	color:#00a8ff;
+}
+
+header .container-fluid .main-menu:hover .container .navbar-brand .logo{
+	background: url(..//img/LOGO1b.png) no-repeat/* #ffffff*/;
+	transition: background  ease 1.5s;
+}
+
+.maintitle{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: none;
+	z-index: 5;
+	margin: 0 auto;
+	display: block;
+	 height: 100%;
+	
+}
+
+.care{
+	font-size: 36px;
+	font-family:ProximaNovaT-Thin, sans-serif;
+	color: #ffffff;
+	line-height: 0;
+	margin-bottom: 40px;
+	
+}
+
+.table{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.table-row{
+	display: table-row;
+  }
+
+.table-cell{
+	display: table-cell;
+	  vertical-align: middle;
+	  text-align: center;
+  }
+
+  .table-cell h1{
+
+  }
+
+ .heading{
+    max-width: 940px;
+	margin: -50px auto 0 auto;
+	text-align: center;
+ }
+  .table-cell h1.title {
+	width: 29ch;
+	white-space: nowrap;
+	text-align: center;
+	overflow: hidden;
+	border-right: 4px solid #00a8ff;
+	animation: flashing_border 0.75s step-end infinite,
+	 printed_text 4s steps(29) infinite;
+}
+
+@keyframes flashing_border {
+	0% {
+		border-color: #00a8ff;
+	}
+	50% {
+		border-color: transparent;
+	}
+	100% {
+		border-color: #00a8ff;
+	}
+}
+
+@keyframes printed_text {
+	from {
+		width: 0;
+	}
+}
+/*====================================sectiction_1=============================================================*/
+
+.section_1{
+	position: relative; 
+	min-height: 950px;
+}
+
+.slanting {
+    position: absolute;
+    width: 100%;
+    background: #ffffff;
+    /* background: #3BF2D2; */
+    min-height: 1120px;
+    top: -116px;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+	.upper{
+	position: absolute;
+    top: -215px;
+    margin: 0 auto;
+    width: 100%;
+
+	}	
+
+    
+		.carousel-inner{
+			box-shadow: 0 -7px 20px rgba(0,0,0, .2), -7px 0 20px rgba(0,0,0, .2), 7px 0 20px rgba(0,0,0, .2),  0 -3px 0 rgba(0,0,0, .1);
+		
+	}
+	.section_1 .carusel .carousel-caption{
+		background: #f44336;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		opacity: 0.9;
+	}
+
+	.sporttoday{
+		position: relative;
+
+	}
+
+	.cap-sporttoday{
+		margin-left:9%;
+		text-align: left;
+		margin-top: 7px;
+	}
+
+
+	.img{
+		
+		float:left;
+		width: 45px;
+		margin-left:18px;
+		clear:both;
+
+	}
+
+	.img .gym1{
+		margin-top: 55px;
+	}
+
+	.img .gym2{
+		margin-top: 30px;
+	}
+
+	.img .gym3{
+		margin-top: 38px;
+	}
+
+	.trainingbest{
+		position: absolute;
+		top: 94px;
+		left: 65px;
+
+	}
+	.training{
+		float: left;
+		text-align: left;
+		clear:both;
+	}
+
+	.tr1{
+		margin-top: 17px;
+	}
+
+	.time{
+		position: absolute;
+		top: 94px;
+		right: 35px;
+		font-family:ProximaNova-Bold;
+	}
+
+	.tr2{
+		margin-top: 24px;
+	}
+
+	.bordertb{
+	margin-top: 103px;
+	width: 100%;
+	height: 59px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+    border-color:  #ff5f53;
+	}
+
+
+
+
+.carousel-indicators{
+	width: 70%;
+	top: 29px;
+    text-align: right;
+}
+ 
+.carousel-indicators li{
+	border-radius: 0;
+	width: 8px;
+    height: 8px;
+    margin: 0;
+    border: 2px solid #ffffff ;
+
+}
+
+.carousel-indicators li.active{
+	border-radius: 0;
+	width: 8px;
+    height: 8px;
+    margin: 0;
+    border: 2px solid #ffffff ;
+
+}
+
+.section_1 .running {
+		position: relative;
+		width: 100%;
+		height: 278px;
+		background: url(..//img/group-running.jpg) no-repeat;
+		background-size: cover;
+		box-shadow: 0 -7px 20px rgba(0,0,0, .2), -7px 0 20px rgba(0,0,0, .2), 7px 0 20px rgba(0,0,0, .2),  0 -3px 0 rgba(0,0,0, .1);
+	}
+
+
+.section_1 .running .run{
+		position: absolute;
+		background: #4caf50;
+		left: 0;
+		right: 0;
+		top: 0;
+		height: 100%;
+		opacity: 0.9;
+		width: 100%;
+		z-index: 15;
+}
+
+.section_1 .running .run .btn-default{
+		display: none;
+}
+
+.section_1 .running .run:hover{
+		background: #b0bab1;
+}
+
+.section_1 .running .run:hover .run1{
+		display: none;
+}
+
+.section_1 .running .run:hover .run2{
+		margin-top: 30px;
+}
+
+.section_1 .running .run:hover .btn-default{
+		display: block;
+		background: inherit;
+		border:2px solid #ffffff;
+		margin-left: 9%;
+		margin-top: 70px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+}
+
+
+.section_1 .running .run:hover .btn-default:hover{
+	background:#ffffff;
+	color:  #bbbbbb;
+}
+
+
+.run1{
+	color: #ffffff;
+	margin-top: 21px;
+	margin-left: 9%;
+}
+
+.run2{
+	color: #ffffff;
+	margin-top: 135px;
+	margin-left: 9%;
+	font-size: 24px;
+}
+
+.run3{
+	color: #ffffff;
+	margin-top: -15px;
+	margin-left: 9%;
+	font-size: 36px;
+}
+
+.blue{
+	background: #07a9ee !important;
+	text-align: left;
+}
+
+.boxer1{
+	margin-left: 9%;
+	margin-top:10px;
+}
+
+.boxer2{
+	margin-top: 50px;
+	margin-left: 9%;
+	font-family:ProximaNova-Bold;
+	font-size: 26px;
+	line-height:26px;
+}
+
+.boxer3{
+	margin-left: 9%;
+	margin-top: 65px;
+	font-family:ProximaNova-Light;
+}
+
+
+.service{
+	position: absolute;
+	top: 22% /*170px*/;
+	width: 100%;
+}
+
+.squareserv{
+	margin-top: 35%;
+	text-align:center;
+	width: 100%;
+	height: auto;
+	border: 1px solid #dddddd;
+	box-shadow: 0 0 20px rgba(0,0,0, .2);
+}
+
+.squareserv:hover{
+	border: 1px solid #00a8ff;
+	cursor: pointer;
+	transition: all  ease 1s;
+	box-shadow: inset 0 0 20px rgba(0,0,0, .2);
+}
+
+.squareserv:hover .pulse{
+	margin-top: -23.5px;
+	transition: all  ease 1s;
+}
+
+.squareserv:hover .pulse2{
+	margin-bottom: 40px;
+	transition: all  ease 1s;
+}
+
+.squareserv:hover .pulse3{
+	display: block;
+	transition: all  ease 1s;
+	margin-bottom: 82px;
+}
+
+.pulse{
+	background: #00a8ff;
+	padding: 2px;
+	margin-top: 100px;
+	margin-bottom:50px;
+}
+
+
+.pulse2{
+	font-size: 24px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color: #333333;
+	margin-bottom: 100px;
+}
+
+.pulse3{
+	display: none;
+	margin:0 9%;
+	margin-bottom: 65px;
+}
+
+
+.yoga{
+	margin-top: 90px;
+	margin-bottom:40px;
+}
+
+
+.yoga2{
+	font-size: 24px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color: #333333;
+	margin-bottom: 102px;
+}
+
+.yoga3{
+	display: none;
+	margin:0 9%;
+	margin-bottom: 65px;
+}
+
+.squareserv:hover .yoga{
+	margin-top: -32px;
+	transition: all  ease 1s;
+	margin-bottom:42px;
+}
+
+.squareserv:hover .yoga2{
+	margin-bottom: 40px;
+	transition: all  ease 1s;
+}
+
+.squareserv:hover .yoga3{
+	display: block;
+	transition: all  ease 1s;
+	margin-bottom: 81px;
+}
+
+.lift{
+	margin-top: 100px;
+	margin-bottom:44px;
+	background: #ffffff;
+}
+
+.lift2{
+	font-size: 24px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color: #333333;
+	margin-bottom: 102px;
+}
+
+.lift3{
+	display: none;
+	margin:0 9%;
+	margin-bottom: 65px;
+}
+
+.squareserv:hover .lift{
+	margin-top: -29px;
+	transition: all  ease 1s;
+	margin-bottom:53px;
+}
+
+.squareserv:hover .lift2{
+	margin-bottom: 40px;
+	transition: all  ease 1s;
+}
+
+.squareserv:hover .lift3{
+	display: block;
+	transition: all  ease 1s;
+	margin-bottom: 81px;
+}
+
+
+/*====================================sectiction_2=============================================================*/
+
+
+.section_2{
+	position: relative; 
+	width:100%;
+	background:##17E3E5;
+	/*min-height: 950px;*/
+}
+
+.team{
+	position: absolute;
+	top:170px;
+	width: 100%;
+}
+
+.trainingpost{
+	position: relative;
+	background:  #ffffff;
+	display: inline-block;
+	text-align:center;
+	max-width: 370px;
+	box-shadow: 0 0 20px rgba(0,0,0, .2);
+	margin-top: 155px;
+}
+
+.trainingpost:hover{
+	transition: all  ease 1s;
+	box-shadow:inset 0 0 20px rgba(0,0,0, .2);
+}
+
+.img-circle{
+margin-top: -60px;
+z-index: 10;
+position: relative;}
+
+.nametrain{
+	margin-top: 60px;
+	font-size: 24px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color: #333333;
+	margin-bottom: -5px;
+}
+
+.trainingpost .btn-default{
+	background: #ffffff;
+	color:#00a8ff;
+	font-family: ProximaNova-Regular;
+	border: 1px solid #00a8ff ;
+	margin-bottom: 60px;
+	margin-top: 50px;
+}
+
+ .section_2 .trainingpost .btn-default:hover{
+	background: #0078B6;
+	color:#ffffff;
+}
+
+.trainingpost:hover .btn-default{
+	background: #00a8ff;
+	color:#ffffff;
+	border: 1px solid #00a8ff ;
+	transition: all  ease 1s;
+}
+
+.hoverbg1{
+	position: relative;
+	width: 100%;
+	
+}
+
+
+.hoverbg2{
+	display: none;
+	position: absolute;
+	top: 0;
+	background: #00a8ff;
+	width: 100%;
+	height: 234px;
+	opacity: 0.85;
+}
+
+.trainingpost:hover .hoverbg2{
+	display: block;
+	transition: all  ease 1s;
+}
+
+
+.price1{
+	font-size: 30px;
+	font-family:ProximaNova-Bold, sans-serif;
+	color:#ffffff;
+}
+
+
+/*====================================sectiction_3=============================================================*/
+
+
+.section_3{
+	position: relative;
+	animation: runbuner 10s infinite;
+	margin-top: 1200px;
+}
+
+@keyframes runbuner{
+	0% {
+	background: url(..//img/runbuner.jpg) no-repeat center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	}
+	50% {
+		background: url(..//img/runbuner2.jpg) no-repeat center;
+		width: 100%;
+		height: auto;
+		background-size: cover;
+	}
+	100% {
+		background: url(..//img/runbuner.jpg) no-repeat center;
+		width: 100%;
+		height: auto;
+		background-size: cover;
+	}
+}
+
+/* .section_3:hover{
+	
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	transition: background  ease 5s;
+} */
+
+
+.caption3{
+	margin-top:155px;
+}
+
+.pilates{
+	margin-top:150px;
+	max-width: 740px;
+	background: #00a8ff;
+	box-shadow: 0 0 7px rgba(0,0,0, .2);
+}
+
+.pilates1{
+	float: left;
+}
+
+.pilates h5{
+	margin-top:60px;
+	margin-left:55px;
+}
+
+.pila1{
+	font-size: 25px;
+	font-family:ProximaNova-Light, sans-serif;
+	color:#ffffff;
+	margin-left:55px;
+}
+
+.pilates .btn-default{
+	margin-top:60px;
+	border: 1px solid #ffffff ;
+	margin-left:55px;
+	margin-bottom:60px;
+}
+
+
+.list{
+	margin-top:50px;
+	float: right;
+	margin-right:12.5%;
+}
+
+.list ul li{
+	padding-top: 12px;
+}
+
+.list ul li a:hover{
+	color:#181897;
+}
+
+.cardiotr{
+	max-width: 370px;
+	background: #bbbbbb;
+	margin-top: -10px;
+	text-align: center;
+	margin-bottom: 25px;
+	box-shadow: 0 0 7px rgba(0,0,0, .2);
+}
+
+
+.margin-right0{
+	margin-right: -5px;
+}
+
+.cardiotr h5{
+	padding-top:60px;
+}
+
+.cardiotr .btn-default{
+	margin-top:60px;
+	border: 1px solid #ffffff ;
+	margin-bottom:60px;
+	background: #bbbbbb;
+}
+
+
+.cardiotr .btn-default:hover{
+	background:#ffffff;
+	color:  #bbbbbb;
+}
+
+/*====================================sectiction_4=============================================================*/
+
+.section_4{
+	position: relative;
+	z-index: 20;
+}
+
+.section_4 .carousel-inner{
+	background: #00a8ff;
+	width: 100%;
+	height: 570px;
+}
+
+
+.section_4 .carousel-caption{
+	position: static;
+	font-size: 30px;
+	font-family:ProximaNova-Light, sans-serif;
+}
+
+.twitter{
+	margin-top: 155px;
+	margin-bottom: 80px;
+}
+
+.blue2{
+	color: #93daff;
+	margin-bottom: 250px;
+}
+
+.section_4 .carousel-indicators {
+   width: 60%;
+   top:470px;
+    text-align: center;
+}
+
+
+
+/*====================================footer=============================================================*/
+
+.footer{
+	position: relative;
+	background: url(..//img/sneakers.jpg) no-repeat center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+
+
+.hoverblue{
+	position: absolute;
+	display: block;
+	height:100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	 background: radial-gradient( at 100% 30% ,#323e67 5%, rgba(18, 18, 58, 0.91) );
+}
+
+
+.reserve{
+	margin-top: 155px;
+}
+
+.reserve .btn-default
+{
+	margin-top: 55px;
+}
+
+.indicator{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	animation: indicator_light 1s ease-out infinite;
+	 margin-left: 30px;
+	margin-bottom: 2px;
+}
+
+@keyframes indicator_light{
+	0% {
+		background: #4caf50;
+		box-shadow: 0 0 20px rgba(68, 170, 85, .9);
+	}
+	20% {
+		background: transparent;
+		box-shadow: none;
+	}
+	40% {
+		background: #4caf50;
+		box-shadow: 0 0 20px rgba(68, 170, 85, .9);
+	}
+	100% {
+		background: #4caf50;
+		box-shadow: 0 0 20px rgba(68, 170, 85, .9);
+	}
+}
+
+
+.date1{
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.date2{
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 65px;
+}
+
+
+.copyright{
+	margin-top: 160px;
+}
+
+.copyright ul{
+	list-style: none;
+	float: right;
+}
+
+.copyright ul li{
+	display: inline-block;
+	margin-left:45px;
+}
+
+.copyright ul li{
+	display: inline-block;
+	margin-left:45px;
+	margin-bottom: 40px
+}
+
+.copyright ul li a:hover{
+	padding:5px;
+	background: #00a8ff;
+	border-radius: 2px;
+}
+
+.copyright ul li:first-child {
+	margin-left:0;
+}
+
+.copyright p{
+	margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+header .container-fluid .main-menu .container  .navbar-right li a{
+	color:#ffffff;
+	padding: 22px 25px;
+}	
+.heading {
+    max-width: 840px;
+}
+header .table-cell h1.title{
+	font-size: 50px;
+	width: 28ch;
+	animation: flashing_border 0.75s step-end infinite,
+	 printed_text 4s steps(28) infinite;
+}	
+
+.upper{
+    top: -175px;
+ 
+
+	}	
+
+h5{
+	font-size: 20px;
+} 
+
+	.img .gym1{
+		margin-top:50px;
+	}
+
+	.img .gym2{
+		margin-top: 20px;
+	}
+
+	.img .gym3{
+		margin-top: 20px;
+	}
+
+	.trainingbest{
+		top: 87px;
+	}
+
+	.training{
+		font-size: 16px;
+	}
+
+	.tr1{
+		margin-top: 10px;
+	}
+
+	.time{
+		top: 87px;
+		right: 10px;
+	}
+
+	.tr2{
+		margin-top: 8px;
+	}
+
+	
+
+	.bordertb{
+	margin-top: 93px;
+	height: 45px;
+	}
+
+.cap-sporttoday {
+    margin-top: -7px;
+}
+
+
+.carousel-indicators{
+	top: 21px;
+  
+}
+
+.section_1 .running {
+		height: 226.7px;px;
+	}
+
+
+.run2{
+	margin-top: 85px;
+}
+
+.section_1 .running .run:hover .run2{
+		margin-top: 10px;
+}
+
+
+.boxer1 {
+    margin-top: 2px;
+}
+
+.boxer2{
+	margin-top: 40px;
+	font-size: 20px;
+	line-height:20px;
+}
+
+.boxer3{
+	margin-top: 50px;
+}
+
+
+.hoverbg2{
+	height: 191px;
+}
+
+.team {
+    top: 100px;
+}
+
+.section_3{
+	margin-top: 1085px;
+}
+
+.margin-right0{
+	margin-right: -15px;
+}
+
+.list{
+	margin-right:5.5%;
+}
+
+.date2{
+	margin-left: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.heading {
+		max-width: 670px;
+	}
+	header .table-cell h1.title{
+		font-size: 38px;
+	}	
+	
+.care{
+	font-size: 30px;
+}
+
+.cap-sporttoday{
+		margin-top: 40px;
+		margin-left:9%;
+		text-align: left;
+
+	
+	}
+
+.section_1{
+	min-height: 3075px;
+}
+
+.slanting {
+    min-height: 3320px;
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+}
+
+.upper{
+    top:-45px;
+	}	
+
+h5{
+	font-size: 48px;
+} 
+
+	.img{
+		margin-left:9%;
+	}
+
+
+	.img .gym1{
+		margin-top:145px;
+	}
+
+	.img .gym2{
+		margin-top: 83px;
+	}
+
+	.img .gym3{
+		margin-top: 90px;
+	}
+
+	.trainingbest{
+		top: 204px;
+		left: 150px;
+	}
+
+	.training{
+		font-size: 24px;
+	}
+
+	.tr1{
+		margin-top: 65px;
+	}
+
+	.tr2{
+		margin-top: 66px;
+	}
+
+	.time{
+		top: 205px;
+		right: 20px;
+	}
+
+	
+
+	.bordertb{
+    margin-top: 221px;
+    height: 107px;
+	}
+
+
+
+.carousel-indicators{
+	top: 80px;
+	width: 75%;
+}
+
+.carousel-indicators li{
+	width: 12px;
+    height: 12px;
+    border: 3px solid #ffffff ;
+
+}
+
+.carousel-indicators li.active{
+	width: 12px;
+    height: 12px;
+    border: 3px solid #ffffff ;
+
+}
+
+
+.section_1 .running {
+		height: 480px;
+		margin-top: 25px;
+		width: 720px;
+	}
+
+
+.section_1 .running .run:hover .run2{
+		margin-top: 130px;
+}
+
+.section_1 .running .run:hover .btn-default{
+		margin-left: 42%;
+		margin-top: 70px;
+}
+
+
+	.run1{
+	margin-top: 21px;
+	font-size: 24px;
+}
+
+.run2{
+	margin-top: 275px;
+	font-size: 30px;
+}
+
+.run3{
+	margin-top: -15px;
+	font-size: 60px;
+}
+
+.margin25{
+	margin-top: 25px;
+}
+
+
+.boxer1{
+	font-size: 24px;
+	margin-top: 55px;
+}
+
+.boxer2{
+	margin-top: 135px;
+	font-size: 60px;
+	line-height:60px;
+}
+
+.boxer3{
+	margin-top: 90px;
+	font-size: 45px;
+}
+
+.service {
+    top: 1670px;
+}
+
+.squareserv {
+    margin-top: 10%;
+
+}
+
+.hoverbg2{
+	height: 143px;
+}
+
+.trainingpost {
+    margin-top: 40px;
+}
+
+.hoverbg2 .table-cell {
+    vertical-align: super;
+}
+
+.section_3{
+	margin-top: 930px;
+}
+
+.cardiotr {
+    margin-left: auto;
+
+}
+
+.date2{
+	margin-left:0;
+	margin-top: 15px;
+}
+
+.copyright ul,
+.copyright p{
+	text-align:center;
+}
+
+.copyright ul{
+	float: none;
+}
+
+.copyright ul li:last-child {
+	margin-right:30px;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width : 768px) {
+.navbar-collapse .collapse .in .nav .navbar-nav .navbar-right::before{
+display: inline-block;
+}
+
+.navbar-collapse .collapse .in .nav .navbar-nav .navbar-right::after{
+display: inline-block;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+/* header .container-fluid .main-menu:hover{
+	background: none;
+} */
+
+.heading {
+	max-width: 550px;
+}
+header .table-cell h1.title{
+	font-size: 32px;
+}	
+
+.navbar-brand .logo{
+	padding: 25px 25px;
+}
+ .navbar-collapse {
+	border: 0;
+}
+
+
+header .container-fluid .main-menu:hover .container {
+	margin-top: -60px;
+	border: 0;
+}
+
+header .container-fluid .main-menu .container{
+	margin-top: -60px;
+	
+}
+
+header .container-fluid .main-menu .container  .navbar-right{
+	display: block;
+
+}
+
+header .container-fluid .main-menu .container  .navbar-right li a{
+	color:#00a8ff;
+	padding: 10px 25px;
+	font-size: 16px;
+}	
+
+header .container-fluid .main-menu:hover .container .navbar-right li a{
+	color:#00a8ff;
+}
+
+header .container-fluid .main-menu:hover .container .navbar-right li:hover a{
+	background:rgba(0, 170, 255, .8);
+	color:#ffffff;
+	transition: all  ease .3s;
+}
+
+.navbar-default .navbar-toggle: {
+	margin-right: 50px;
+	z-index: 5500;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background:rgba(0, 170, 255, .5);
+}
+
+/* .navbar-default .navbar-toggle:focus{
+    background-color: #CBE5F5;;
+} */
+
+.navbar-collapse button{
+	margin-top: 200px;
+	/*margin-right:25%;*/
+	padding: 8px 10px;
+	font-size: 16px;
+}
+
+.navbar-collapse {
+	background: #CBE5F5;
+	border-radius: 0 0 3px 3px;
+	/* height: 100vh;
+	width: 100%; */
+}
+
+header h1{
+	font-size: 36px;
+	margin-top: 47px;
+}	
+
+.care{
+	font-size: 20px;
+}
+
+.section_1{
+	min-height: 2955px;
+}
+
+.slanting {
+	top: -65px;
+    min-height: 3170px;
+    clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
+}
+
+.upper{
+    top:-35px;
+	}	
+
+
+h5{
+	font-size: 36px;
+} 
+
+	.img{
+		margin-left:31px;
+	}
+
+	.img .gym1{
+		margin-top:110px;
+	}
+
+	.img .gym2{
+		margin-top: 60px;
+	}
+
+	.img .gym3{
+		margin-top: 60px;
+	}
+
+	.trainingbest{
+		top: 162px;
+		left: 100px;
+	}
+
+	.training{
+		font-size: 20px;
+	}
+
+	.tr1{
+		margin-top: 44px;
+	}
+
+	.time{
+		top: 162px;
+		right: 20px;
+	}
+
+	.tr2{
+		margin-top: 44px;
+	}
+
+	
+
+	.bordertb{
+	margin-top: 172px;
+	height: 90px;
+	}
+
+
+
+
+.carousel-indicators{
+	top: 70px;
+	z-index: 5;
+}
+
+
+
+
+.section_1 .running {
+		height: 441px;
+		margin-top: 15px;
+/*		width: 100%;*/
+
+	}
+
+	.run1{
+	margin-top: 21px;
+	font-size: 24px;
+}
+
+.run2{
+	margin-top: 260px;
+	font-size: 30px;
+}
+
+.run3{
+	margin-top: -15px;
+	font-size: 60px;
+}
+
+.hoverbg2 {
+    height: 240px;
+}
+
+.hoverbg2 .table-cell {
+    vertical-align: middle;
+}
+
+.team {
+    top: 150px;
+}
+
+.section_3{
+	margin-top: 2300px;
+}
+
+.reserve{
+	text-align: center;
+}
+
+.date2{
+	margin-left: 10px;
+}
+
+.slanting {
+    min-height: 3170px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 750px){
+	.section_1 .running {
+		width: 100%;
+
+	}
+
+.boxer1 {
+    margin-top: 42px;
+}
+
+.boxer2{
+	margin-top: 105px;
+	font-size: 45px;
+	line-height:45px;
+}
+
+.boxer3{
+	font-size: 30px;
+}
+
+.boxer3 {
+    margin-top: 115px;
+}
+
+}
+
+@media only screen and (max-width : 745px) {
+
+.boxer2 {
+    margin-top: 125px;
+}
+
+.boxer3 {
+    margin-top: 135px;
+}
+}
+
+
+
+@media only screen and (max-width : 730px) {
+.service {
+    top: 1560px;
+}
+
+.boxer2 {
+    margin-top: 125px;
+}
+
+.boxer3 {
+    margin-top: 135px;
+}
+
+.slanting {
+    min-height: 3120px;
+}
+}
+
+
+
+
+
+@media only screen and (max-width : 600px){
+	.heading {
+		max-width: 450px;
+	}
+	header .table-cell h1.title{
+		font-size: 28px;
+	}	
+	
+	.section_1:before{
+	top:-80px;
+	border-bottom: 80px solid #ffffff; 
+	}
+
+	.section_1{
+	min-height: 2500px;
+}
+
+	.team {
+	    top: 35px;
+	}
+	.upper{
+    top:-20px;
+	}	
+
+	.cap-sporttoday {
+    margin-top: 38px;
+    
+	}
+
+	.img{
+		margin-left:31px;
+	}
+
+	.img .gym1{
+		margin-top:90px;
+	}
+
+	.img .gym2{
+		margin-top: 40px;
+	}
+
+	.img .gym3{
+		margin-top: 40px;
+	}
+
+	.trainingbest{
+		top: 142px;
+		left: 100px;
+	}
+
+	.training{
+		font-size: 20px;
+	}
+
+	.tr1{
+		margin-top: 23px;
+	}
+
+	.time{
+		top: 142px;
+		right: 20px;
+	}
+
+	.tr2{
+		margin-top: 24px;
+	}
+
+	
+
+	.bordertb{
+	margin-top: 145px;
+	height: 61px;
+	}
+
+.section_1 .running {
+		height: 305px;
+	}
+
+	.section_1 .running .run:hover .run2{
+		margin-top: 20px;
+}
+
+.run2{
+	margin-top: 120px;
+}
+
+.boxer2{
+	margin-top: 65px;
+	font-size: 30px;
+	line-height:30px;
+}
+
+.boxer3{
+	font-size: 24px;
+}
+
+.slanting {
+    min-height:2610px;
+}
+
+.service{
+	top: 1150px;
+}
+
+.cardiotr {
+    margin-left: 15%;
+}
+
+}
+
+
+@media only screen and (max-width : 550px) {
+	.heading {
+		max-width: 400px;
+	}
+	header .table-cell h1.title{
+		font-size: 24px;
+	}	
+}
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header h1{
+	font-size: 20px;
+}	
+.heading {
+	max-width: 350px;
+}
+header .table-cell h1.title{
+	font-size: 20px;
+}	
+
+.care{
+	font-size: 15px;
+}
+
+.cap-sporttoday{
+		margin-top:10px;
+
+	}
+
+.section_1 {
+    min-height: 2400px;
+}
+
+.slanting {
+    top: -35px;
+    min-height: 2480px;
+    clip-path: polygon(0 1%, 100% 0, 100% 99%, 0 100%);
+}
+.service {
+    top: 1020px;
+}
+
+h5{
+	font-size: 20px;
+} 
+
+.img{
+		margin-left:8px;
+	}
+
+
+	.img .gym1{
+		margin-top:40px;
+	}
+
+	.img .gym2{
+		margin-top: 35px;
+	}
+
+	.img .gym3{
+		margin-top: 37px;
+	}
+
+	.trainingbest{
+		top: 78px;
+		left: 60px;
+	}
+
+	.training{
+		font-size: 16px;
+	}
+
+	.tr1{
+		margin-top: 26px;
+	}
+
+	.time{
+		top: 78px;
+		right: 15px;
+	}
+
+	.tr2{
+		margin-top: 26px;
+	}
+
+	
+
+	.bordertb {
+    margin-top: 93px;
+    height: 60px;
+}
+
+
+
+
+.carousel-indicators{
+	top: 29px;
+  
+}
+
+
+
+.carousel-indicators li{
+	width: 8px;
+    height: 8px;
+    border: 2px solid #ffffff ;
+
+}
+
+.carousel-indicators li.active{
+	width: 8px;
+    height: 8px;
+    border: 2px solid #ffffff ;
+
+}
+
+.section_1 .running {
+		height: 300px;
+		margin-top: 15px;
+		width: 100%;
+	}
+
+.section_1 .running .run:hover .run2{
+		margin-top: 50px;
+}
+
+	.run1{
+	font-size: 18px;
+}
+
+.run2{
+	margin-top: 170px;
+	font-size: 24px;
+}
+
+.run3{
+	font-size: 36px;
+}
+
+.boxer1 {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.boxer2{
+	margin-top: 55px;
+	font-size: 24px;
+	line-height:24px;
+}
+
+.boxer3{
+	margin-top:65px;
+	font-size: 18px;
+	
+}
+
+.squareserv {
+    margin-top: 15%;
+
+}
+
+.cardiotr {
+    margin-left: 0;
+}
+
+.list {
+    margin-top: 0;
+}
+
+.section_4 .carousel-caption{
+	font-size: 24px;
+}
+
+}
+
+
+@media only screen and (max-width : 375px){
+	.heading {
+		max-width: 270px;
+	}
+	header .table-cell h1.title{
+		font-size: 16px;
+	}	
+	.section_1 .running {
+		height: 230px;
+	}
+
+	.section_1 .running .run:hover .btn-default{
+		margin-top: 35px;
+}
+	.run2{
+	margin-top: 80px;
+}
+
+.hoverbg2{
+	height: 225px;
+}
+
+.service {
+    top: 890px;
+}
+
+.section_1 {
+    min-height: 2250px;
+}
+
+.slanting {
+    top: -30px;
+    min-height: 2310px;
+}
+
+.section_3 {
+    margin-top: 2250px;
+}
+
+}
+
+
+
+@media only screen and (max-width : 360px){
+	.section_1 {
+    min-height: 2150px;
+}
+
+.slanting {
+    min-height: 2230px;
+}
+
+.section_1 .running {
+		height: 220px;
+	}
+
+	.section_1 .running .run:hover .run2{
+		margin-top: 20px;
+}
+
+	.run2{
+	margin-top: 90px;
+	font-size: 24px;
+}
+
+	.service {
+    top: 815px;
+	}
+
+.hoverbg2{
+	height: 215px;
+}
+
+.cap-sporttoday {
+    margin-top: -10px;
+}
+
+.section_3 {
+    margin-top: 2200px;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width : 320px){
+		.section_1 {
+    min-height: 2070px;
+	}
+
+.slanting {
+    top: -25px;
+    min-height: 2150px;
+}
+
+
+	.service{
+	top: 740px;
+}
+
+.section_1 .running {
+		height: 195px;
+	}
+
+	.section_1 .running .run:hover .btn-default{
+		margin-top: 25px;
+}
+
+.hoverbg2{
+	height: 190px;
+}
+
+.cap-sporttoday {
+    margin-top: 0;
+}
+
+.img .gym2 {
+    margin-top: 20px;
+}
+
+.img .gym3 {
+    margin-top: 22px;
+}
+
+.tr1 {
+    margin-top: 10px;
+}
+
+.tr2 {
+    margin-top: 10px;
+}
+
+.bordertb {
+    margin-top: 85px;
+    height: 44px;
+}
+
+.run2 {
+    margin-top: 65px;
+    font-size: 24px;
+}
+
+.section_3 {
+    margin-top: 2140px;
+}
+
+}
