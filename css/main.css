@@ -445,7 +445,9 @@ header .container-fluid .main-menu:hover .container .navbar-brand .logo{
 	}
 
 
-
+.section_1 .item img{
+	min-height: 245px;
+}
 
 .carousel-indicators{
 	width: 70%;
